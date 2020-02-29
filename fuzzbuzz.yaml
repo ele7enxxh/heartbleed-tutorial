@@ -11,3 +11,9 @@ targets:
       binary: ./target
     sanitizers:
       address: detect_stack_use_after_return=1
+targets:
+  - name: heartbleed111
+    harness:
+      binary: ./target
+    sanitizers:
+      address: detect_stack_use_after_return=1
